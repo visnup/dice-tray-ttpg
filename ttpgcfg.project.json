@@ -1,10 +1,1 @@
-{
-  "name": "Wooden Dice Tray",
-  "slug": "dice-tray-ttpg",
-  "version": "0.0.1",
-  "transpile": true,
-  "guid": {
-    "dev": "1787C4F0A30E4CBCA3933001BF207534",
-    "prd": "676589924E8D4486857AC2A5484E6C37"
-  }
-}
+{"name":"Wooden Dice Tray","slug":"dice-tray-ttpg","version":"0.0.1","transpile":true,"guid":{"dev":"1787C4F0A30E4CBCA3933001BF207534","prd":"676589924E8D4486857AC2A5484E6C37"},"modId":4633253}
