@@ -15,6 +15,7 @@ const zoneId = `zone-${refObject.getId()}`;
 const zone =
   world.getZoneById(zoneId) ?? world.createZone(refObject.getPosition());
 zone.setId(zoneId);
+zone.setPosition(refObject.getPosition());
 zone.setRotation(refObject.getRotation());
 zone.setScale(refObject.getSize().add(new Vector(0, 0, 3)));
 zone.onBeginOverlap.add((zone, obj) => {
@@ -22,6 +23,10 @@ zone.onBeginOverlap.add((zone, obj) => {
 });
 zone.onEndOverlap.add((zone, obj) => {
   if (obj instanceof Dice) obj.onPrimaryAction.remove(onRoll);
+});
+refObject.onMovementStopped.add(() => {
+  zone.setPosition(refObject.getPosition());
+  zone.setRotation(refObject.getRotation());
 });
 refObject.onDestroyed.add(() => zone.destroy());
 
