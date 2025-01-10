@@ -12,6 +12,7 @@
     "watch": "ttpg-scripts watch",
     "postpublish": "ttpg-scripts postpublish"
   },
+  "license": "ISC",
   "keywords": [],
   "author": "",
   "devDependencies": {
