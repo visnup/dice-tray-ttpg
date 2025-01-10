@@ -1,0 +1,164 @@
+{
+	"Type": "Generic",
+	"GUID": "5DC351479A4DF3A83EAD41A21E9F33B8",
+	"Name": "walls",
+	"Metadata": "",
+	"CollisionType": "Regular",
+	"Friction": 0.7,
+	"Restitution": 0.3,
+	"Density": 1,
+	"SurfaceType": "Wood",
+	"Roughness": 1,
+	"Metallic": 0,
+	"PrimaryColor":
+	{
+		"R": 0,
+		"G": 0,
+		"B": 0
+	},
+	"SecondaryColor":
+	{
+		"R": 0,
+		"G": 0,
+		"B": 0
+	},
+	"Flippable": false,
+	"AutoStraighten": false,
+	"ShouldSnap": true,
+	"ScriptName": "",
+	"Blueprint": "",
+	"Models": [
+		{
+			"Model": "uv-cube.obj",
+			"Offset":
+			{
+				"X": -8.9000000000000004,
+				"Y": -8.9000000000000004,
+				"Z": -1.3999999999999999
+			},
+			"Scale":
+			{
+				"X": 0.10000000000000001,
+				"Y": 0.10000000000000001,
+				"Z": 0.10000000000000001
+			},
+			"Rotation":
+			{
+				"X": -0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Texture": "",
+			"NormalMap": "",
+			"ExtraMap": "",
+			"ExtraMap2": "",
+			"IsTransparent": true,
+			"Alpha": 0.1,
+			"CastShadow": false,
+			"IsTwoSided": false,
+			"UseOverrides": true,
+			"SurfaceType": "Plastic"
+		}
+	],
+	"Collision": [
+		{
+			"Model": "uv-cube.obj",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 9.25,
+				"Z": 6.5
+			},
+			"Scale":
+			{
+				"X": 19,
+				"Y": 0.5,
+				"Z": 16
+			},
+			"Rotation":
+			{
+				"X": -0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Type": "Convex"
+		},
+		{
+			"Model": "uv-cube.obj",
+			"Offset":
+			{
+				"X": 0,
+				"Y": -9.25,
+				"Z": 6.5
+			},
+			"Scale":
+			{
+				"X": 19,
+				"Y": 0.5,
+				"Z": 16
+			},
+			"Rotation":
+			{
+				"X": -0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Type": "Convex"
+		},
+		{
+			"Model": "uv-cube.obj",
+			"Offset":
+			{
+				"X": 9.25,
+				"Y": 0,
+				"Z": 6.5
+			},
+			"Scale":
+			{
+				"X": 0.5,
+				"Y": 19,
+				"Z": 16
+			},
+			"Rotation":
+			{
+				"X": -0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Type": "Convex"
+		},
+		{
+			"Model": "uv-cube.obj",
+			"Offset":
+			{
+				"X": -9.25,
+				"Y": 0,
+				"Z": 6.5
+			},
+			"Scale":
+			{
+				"X": 0.5,
+				"Y": 19,
+				"Z": 16
+			},
+			"Rotation":
+			{
+				"X": -0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Type": "Convex"
+		}
+	],
+	"Lights": [],
+	"SnapPointsGlobal": false,
+	"SnapPoints": [],
+	"ZoomViewDirection":
+	{
+		"X": 0,
+		"Y": 0,
+		"Z": 0
+	},
+	"GroundAccessibility": "Nothing",
+	"Tags": []
+}
